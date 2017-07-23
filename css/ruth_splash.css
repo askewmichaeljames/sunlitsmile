@@ -1,0 +1,117 @@
+@charset "utf-8";
+/* CSS Document */
+
+#splash {
+	background-image: url(../images/splash/ruth_l_2120.jpg);
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	background-position: center center;
+	background-repeat: no-repeat;
+	z-index: -1;
+}
+
+#logo {
+	/*font-family: 'Cabin Sketch', cursive;*/
+	font-family: 'Rock Salt', cursive;
+	text-shadow: 0px 0px 10px #DBDBDB;
+}
+
+#enter {
+	font-family: 'Architects Daughter', cursive;
+	text-shadow: 0px 0px 3px #DBDBDB;
+}
+
+@media only screen and (max-width: 500px) {
+#logo {
+	font-size: 4em;
+	top: 10px;
+	left: 30px;
+	position: absolute;
+	padding-top: 0;
+	padding-left: 0;
+}
+
+#enter {
+	font-size: 2em;
+	top: 180px;
+	left: 75px;
+	position: absolute;
+	padding-top: 0;
+	padding-left: 0;
+}
+}
+
+@media only screen and (min-width: 501px) and (max-width: 650px) {
+#logo {
+	font-size: 5em;
+	padding-top: 8%;
+	position: absolute;
+	left: 40px;
+}
+#enter {
+	font-size: 2em;
+	position: absolute;
+	top: 300px;
+	padding-left: 22%;
+}
+}
+
+@media only screen and (min-width: 651px) and (max-width: 800px) {
+#logo {
+	font-size: 6em;
+	padding-top: 8%;
+	position: absolute;
+	left: 40px;
+}
+#enter {
+	font-size: 3em;
+	position: absolute;
+	top: 300px;
+	padding-left: 22%;
+}
+}
+
+@media only screen and (min-width: 801px) and (max-width: 900px) {
+#logo {
+	font-size: 7em;
+	padding-top: 8%;
+	padding-left: 7%;
+}
+#enter {
+	font-size: 3em;
+	padding-top: 10%;
+	padding-left: 22%;
+}
+}
+
+@media only screen and (min-width: 901px) and (max-width: 1100px) {
+#logo {
+	font-size: 8em;
+	padding-top: 8%;
+	padding-left: 7%;
+}
+#enter {
+	font-size: 3em;
+	padding-top: 10%;
+	padding-left: 22%;
+}
+}
+
+@media only screen and (min-width: 1101px) {
+#logo {
+	font-size: 9em;
+	padding-top: 8%;
+	padding-left: 10%;
+}
+
+#enter {
+	font-size: 4em;
+	padding-top: 10%;
+	padding-left: 22%;
+}
+}
