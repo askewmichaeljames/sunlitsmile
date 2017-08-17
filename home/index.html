@@ -107,6 +107,7 @@
 			<li><a href="https://plus.google.com/u/0/b/102890415884800102495/102890415884800102495/posts" target="_blank"><img src="../images/gp_20.png" style="background-color:#FFF;" /></a></li>
 			<li><a href="https://www.facebook.com/SunlitSmile" target="_blank"><img src="../images/fb_29.png" /></a></li>
 			<li><a href="https://www.youtube.com/channel/UCm3g3BaG0sJgKkgdY_tqQJA" target="_blank"><img src="../images/yt_24.png" /></a></li>
+			<li><a href="https://play.spotify.com/album/0poppAMHCu5niLIDGzECAl" target="_blank"><img src="../images/spotify_gn_20.png" /></a></li>
 		</ul>
 	</div>
      
@@ -157,6 +158,7 @@
 		</nav>
         <nav id="social_nav" class="fluid">
             <ul>
+                <li><a href="https://play.spotify.com/album/0poppAMHCu5niLIDGzECAl" target="_blank"><img src="../images/spotify_gn_40.png" /></a></li>
                 <li><a href="https://www.youtube.com/channel/UCm3g3BaG0sJgKkgdY_tqQJA" target="_blank"><img src="../images/yt_48.png" /></a></li>
                 <li><a href="https://www.facebook.com/SunlitSmile" target="_blank"><img src="../images/fb_50.png" /></a></li>
                 <li><a href="https://plus.google.com/u/0/b/102890415884800102495/102890415884800102495/posts" target="_blank"><img src="../images/gp_40.png" style="background-color: #FFF;" /></a></li>
@@ -180,15 +182,23 @@
         <script src="https://www.googleapis.com/blogger/v3/blogs/2620928170102832607/posts?fetchBodies=true&fetchImages=true&maxResults=1&orderBy=published&status=live&callback=handleBlogResponse&key=AIzaSyAm49ssod6RbWkz9RBawPxhssOy_Z2lkak"></script>-->
 	</article>
 	<article id="article_right" class="hide_mobile hide_tablet">
-		<div class="content_header">twitter</div>
+		<div class="content_header social_feed">twitter</div>
         <div id="twitter">
-        	<a class="twitter-timeline" href="https://twitter.com/SunlitSmile" data-widget-id="553500206025555969" height="400" data-chrome="noheader nofooter" >Tweets by @SunlitSmile</a>
+        	<a class="twitter-timeline" href="https://twitter.com/SunlitSmile" data-widget-id="553500206025555969" height="400" width="500" data-chrome="noheader nofooter" >Tweets by @SunlitSmile</a>
 			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 		</div>
         <div class="spacer"></div>
-        <div class="content_header">facebook</div>
+        <div class="content_header social_feed">facebook</div>
+        <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
         <div id="bookface">
-        	<iframe src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2F202367923180663&amp;width&amp;height=395&amp;colorscheme=light&amp;show_faces=false&amp;header=false&amp;stream=true&amp;show_border=false" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:395px;" allowTransparency="true"></iframe>
+        	<div class="fb-page" data-href="https://www.facebook.com/SunlitSmile" data-tabs="timeline" data-width="500" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/SunlitSmile"><a href="https://www.facebook.com/SunlitSmile">Ruth</a></blockquote></div></div>
 		</div>
 	</article>
     <article id="article_off_center" class="hide_desktop">
@@ -205,7 +215,7 @@
 			var width = '420';
 			var height = '315';
 			var frameborder = '0';
-			var url = 'http://www.youtube.com/embed/';
+			var url = 'https://www.youtube.com/embed/';
 			var quote = '"';
 					
 			function handleYTResponse (response) {
@@ -217,16 +227,19 @@
 		</script>
 		<script src="https://www.googleapis.com/youtube/v3/playlistItems?playlistId=UUm3g3BaG0sJgKkgdY_tqQJA&part=snippet&maxResults=1&callback=handleYTResponse&key=AIzaSyAm49ssod6RbWkz9RBawPxhssOy_Z2lkak"></script>
         <div class="spacer"></div>
+        <div class="twitter_feed">
         <div class="content_header">twitter</div>
         <div id="twitter">
-        	<a class="twitter-timeline" href="https://twitter.com/SunlitSmile" data-widget-id="553500206025555969" height="400" data-chrome="noheader nofooter" >Tweets by @SunlitSmile</a>
+        	<a class="twitter-timeline" href="https://twitter.com/SunlitSmile" data-widget-id="553500206025555969" height="400" width="500" data-chrome="noheader nofooter" >Tweets by @SunlitSmile</a>
 			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 		</div>
-        <div class="spacer"></div>
+        </div>
+        <div class="facebook_feed">
         <div class="content_header">facebook</div>
         <div id="bookface">
         	<iframe src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2F202367923180663&amp;width&amp;height=395&amp;colorscheme=light&amp;show_faces=false&amp;header=false&amp;stream=true&amp;show_border=false" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:395px;" allowTransparency="true"></iframe>
 		</div>
+        </div>
         <div class="spacer"></div>
         <div class="content_header">trending video</div>
         <div id="yt_player_mobile_top" class="video"></div>
@@ -236,7 +249,7 @@
 			var width = '420';
 			var height = '315';
 			var frameborder = '0';
-			var url = 'http://www.youtube.com/embed/';
+			var url = 'https://www.youtube.com/embed/';
 			var quote = '"';
 					
 			function handleYtTopResponse (response) {
@@ -258,7 +271,7 @@
     </article>
     </div>
 	<div id="footer">
-    	©2006-2015 Sunlit Smile Records
+    	©2006-2017 Sunlit Smile Records
     </div>
 </div>
 <script src="../js/hammer.min.js"></script><!-- for swipe support on touch interfaces -->
@@ -290,11 +303,13 @@ makeBSS('.slideshow_mobile', opts2);
 		$wrapper = $('#wrapper');
 		$menu_button = $('#head_container_2');
 		$body = $('body');
+		$html = $('html');
 		
 		$menu_button.click(function() {
 			$mobile_nav.toggleClass('mobile_nav_push');
 			$wrapper.toggleClass('wrapper_push');
 			$body.toggleClass('body_push');
+			$html.toggleClass('html_push');
 		});
     });
 </script>

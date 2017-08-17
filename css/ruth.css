@@ -422,10 +422,10 @@ img, object, embed, video {
 	width: 100%;
 }
 
-#twitter-widget-0 {
+/*#twitter-widget-0 {
 	width: 100% !important;
 	border-radius: none;
-}
+}*/
 
 .timeline {
 	border-radius: 0;
